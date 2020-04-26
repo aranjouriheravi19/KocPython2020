@@ -230,8 +230,8 @@ varying_intercept_fit4 = sm4.sampling(data=varying_intercept_data4, iter=200, ch
 #First of all, let me convey my sincere gratitude to you for letting me get deepeer in the pystan library
 #More days gave me the chance to review the resources of the pystan. As I am relatively new to the 
 #python I really want to learn every site_package along with its details.Although I managed to excute my 
-#pystan model without varying intercept, because of the hard work load my old computer hanged up. That is 
-#why I have not conclude it with the last due comment.
+#pystan model without varying intercepts, but because of the heavy workload, my old computer just hangs up. That is 
+#why I have not concluded it with the last due comment.
 
 
 
