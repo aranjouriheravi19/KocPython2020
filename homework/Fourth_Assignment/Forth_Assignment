@@ -1,1 +1,66 @@
+from sklearn.gaussian_process import GaussianProcessRegressor
+from sklearn.gaussian_process.kernels import ConstantKernel, RBF
+import numpy as np
+import pandas as pd
+#import os
+tt = pd.read_csv(r'https://raw.githubusercontent.com/carlson9/KocPython2020/master/homework/immSurvey.csv') 
+#os.chdir('KocPython2020//in-classMaterial//day17')
+#tt = pd.read_csv('immSurvey.csv')
+tt.head()
+tt.shape
+alphas = tt.stanMeansNewSysPooled
+sample = tt.textToSend
+
+from sklearn.feature_extraction.text import CountVectorizer
+vec = CountVectorizer()
+X = vec.fit_transform(sample)
+X
+
+pd.DataFrame(X.toarray(), columns=vec.get_feature_names())
+
+#down-weighting frequent words; term frequency–inverse document frequency (TF–IDF), which weights the word counts by a measure of how often they appear in the documents
+from sklearn.feature_extraction.text import TfidfVectorizer
+vec = TfidfVectorizer()
+X = vec.fit_transform(sample)
+pd.DataFrame(X.toarray(), columns=vec.get_feature_names())
+
+from sklearn.model_selection import train_test_split
+Xtrain, Xtest, ytrain, ytest = train_test_split(X, alphas,
+random_state=1)
+
+rbf = ConstantKernel(1.0) * RBF(length_scale=1.0)
+gpr = GaussianProcessRegressor(kernel=rbf, alpha=1e-8)
+
+gpr.fit(Xtrain.toarray(), ytrain)
+
+# Compute posterior predictive mean and covariance
+mu_s, cov_s = gpr.predict(Xtest.toarray(), return_cov=True)
+
+#test correlation between test and mus
+unigram_corr = np.corrcoef(ytest, mu_s)
+a = float(unigram_corr[0,1])
+
+#how might we improve this?
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+vec = TfidfVectorizer(ngram_range=(1,2))
+#(1, 2) means unigrams and bigrams
+
+X = vec.fit_transform(sample)
+pd.DataFrame(X.toarray(), columns=vec.get_feature_names())
+
+from sklearn.model_selection import train_test_split
+Xtrain, Xtest, ytrain, ytest = train_test_split(X, alphas,
+random_state=1)
+
+rbf = ConstantKernel(1.0) * RBF(length_scale=1.0)
+gpr = GaussianProcessRegressor(kernel=rbf, alpha=1e-8)
+
+gpr.fit(Xtrain.toarray(), ytrain)
+
+mu_s, cov_s = gpr.predict(Xtest.toarray(), return_cov=True)
+
+bigram_corr = np.corrcoef(ytest, mu_s)
+b = float(bigram_corr[0,1])
+print("The correlation in the monogram model was {}, but in the bigram model is {}. ".format(a,b))
 
