@@ -57,14 +57,13 @@ The used data is available at: [owid-covid-data.csv](https://ourworldindata.org/
 
 
 ## Usage tips
-
 The required packages to run the script are: matplotlib, lightgbm, pandas, sklearn, and ipywidgets  
   
   
+  
 **ipywidgets installation:**  
-
   Users can install and activate the current version of ipywidgets with pip or conda.  
-
+  
     pip install ipywidgets
     jupyter nbextension enable --py widgetsnbextension
    
