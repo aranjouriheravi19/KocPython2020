@@ -1,4 +1,4 @@
-<img src="img/Covid19.jpg" width=1100/>
+<img src="img/Covid19.jpg" width=1200/>
 
 # Covid-19 project: Investigating the effect of different factors on the COVID-19 mortality rate #
 
