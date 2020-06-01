@@ -16,10 +16,49 @@ Determination of the factors having the most effects on the mortality rate of th
 
 
 ## Dataset
+
+[owid-covid-data.csv](https://ourworldindata.org/coronavirus)
+
+### Data Structure
+
+* **iso_code:** The International Organization for Standardization (ISO) created and maintains the ISO
+3166 standard – Codes for the representation of names of countries and their subdivisions  
+
+* **location:** location ..........
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+* **..........:** .......
+
+
 ## Analysis Procedure
+
+### preprocessing
+1. Rows with missing data were eliminated
+2. Rows with zero total cases were dropped
+3. Feature selection:  
+  * 1  
+  * 2  
+  * 3  
+
 ## Usage
+
 ## Results
+
 ## Conclusion
+
 
 
 
