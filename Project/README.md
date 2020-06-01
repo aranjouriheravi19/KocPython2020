@@ -7,11 +7,10 @@ Determination of the factors having the most effects on the mortality rate of th
 
 ## Table of Contents
 * [Dataset](#Dataset)
-* [Analysis Prodecure](#Analysis-Procedure)  
-* [Results](#Results)  
-* [Usage](#Usage)  
-* [Conclusion](#Conclusion)  
-* [Usage](#Usage)  
+* [Analysis Prodecure](#Analysis-Procedure)
+* [Results](#Results)
+* [Usage](#Usage)
+* [Conclusion](#Conclusion)
 
 
 ## Dataset
