@@ -12,7 +12,6 @@ Determination of the factors having the most effects on the mortality rate of th
 * [Usage](#Usage)  
 * [Conclusion](#Conclusion)  
 * [Usage](#Usage)  
-* [Toy data](#Toy-data)  
 
 
 ## Dataset
