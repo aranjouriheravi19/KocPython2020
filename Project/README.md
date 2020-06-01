@@ -3,7 +3,7 @@
 # Covid-19 project: Investigating the effect of different factors on the COVID-19 mortality rate #
 
 ## Description
-Determination of the factors having the most effects on the mortality rate of the Covid-19 infected people.
+Determination of factors having the most effects on the mortality rate of the Covid-19 infected people.
 
 ## Table of Contents
 * [Dataset](#Dataset)
