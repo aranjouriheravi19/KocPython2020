@@ -1,4 +1,4 @@
-<img src="img/Covid19.jpg" width=750/>
+<img src="img/Covid19.jpg" width=1100/>
 
 # Covid-19 project: Investigating different factors on the COVID-19 mortality rate #
 
@@ -16,9 +16,10 @@ Determination of the factors having the most effects on the mortality rate of th
 
 ## Dataset
 
-The used data is available at: [owid-covid-data.csv](https://ourworldindata.org/coronavirus)
+The used data is available at: [owid-covid-data](https://ourworldindata.org/coronavirus)
 
 ### Data Structure
+**Columns:**  
 
 * **iso_code:** The International Organization for Standardization (ISO) created and maintains the ISO
 3166 standard – Codes for the representation of names of countries and their subdivisions  
@@ -60,7 +61,7 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
   
   
   
-**ipywidgets installation:**  
+**ipywidgets activation:**  
   Users can install and activate the current version of ipywidgets with pip or conda.  
   
     pip install ipywidgets
@@ -69,6 +70,11 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
 
 
 ## Results
+
+............... opsern ufern kooossher
+
+<img src="img/plot1.jpg" width=300/>
+
 
 ## Conclusion
 
