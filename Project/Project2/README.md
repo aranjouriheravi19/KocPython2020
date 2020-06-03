@@ -3,7 +3,7 @@
 # Covid-19 project: Investigating the effect of different factors on the COVID-19 mortality rate #
 
 ## Description
-Determination of factors having the most effects on the mortality rate of the Covid-19 infected people.
+The world has been encountered with a challenging and difficult situation since COVID-19 got to a pandemic situation. Not only COVID-19 have too high rate prevalence, but also its mortality rate is high, specifically between old people. Scientists declare many factors related to the mortality rate of this disease.In this project, the effect of these factors has been investigated to specify which factors are the most effective ones.
 
 ## Table of Contents
 * [Dataset](#Dataset)
