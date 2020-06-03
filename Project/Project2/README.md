@@ -107,8 +107,8 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
    
 
 
+<img src="img/final_chart.jpg" width=1000/>
 ## Results
-
 ## Conclusion
 
 
