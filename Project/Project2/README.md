@@ -78,20 +78,31 @@ The used data is available at: [owid-covid-data.csv](https://ourworldindata.org/
 * **handwashing_facilities:** Indicates if there is handwashing facilities in a country available or not.   
 
 * **hospital_beds_per_100k:** Specifies how many beds are available per a hundred thousands of population. 
- 
+
+   
 
 
 ## Analysis Procedure
 
+
 ### preprocessing
 1. Rows with missing data were eliminated
 2. Rows with zero total cases were dropped
-3. Feature selection process:  
-    * 1:
-    * 2:
-    * 3:
-4.
-5.
+3. Defining dependant variable which is "total deaths/total cases"
+4. Feature selection process:  
+   The useless columns were deleted. The remained features for processing are : 
+   'total_tests', 'new_tests', 'total_tests_per_thousand', 'new_tests_per_thousand', 'stringency_index', 'population',
+   'population_density', 'median_age', 'aged_65_older', 'aged_70_older', 'gdp_per_capita', 'extreme_poverty', 'cvd_death_rate',
+   'diabetes_prevalence', 'female_smokers', 'male_smokers', 'handwashing_facilities', 'hospital_beds_per_100k'
+### algorithm and processing
+The first important point to be mentioned is that all variables are numerical ones. The model used for processing is [LightGBM](https://github.com/microsoft/LightGBM). LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages:
+
+    * 1: Faster training speed and higher efficiency.
+    * 2: Lower memory usage.
+    * 3: Better accuracy. 
+    * 4: Support of parallel and GPU learning.
+    * 5: Capable of handling large-scale data.
+
 
 
 ## Usage tips
@@ -107,11 +118,13 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
    
 
 
-<img src="img/final_chart.jpg" width=1000/>
 ## Results
-## Conclusion
 
+<p align="center">
+ <img src="img/final_chart.jpg"  width=800>  
+</p>
 
+rrrrrrrrrrrr
 
 
 
