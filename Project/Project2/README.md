@@ -3,7 +3,7 @@
 # Covid-19 project: Investigating the effect of different factors on the COVID-19 mortality rate #
 
 ## Description
-The world has been encountered with a challenging and difficult situation since COVID-19 got to a pandemic situation. Not only COVID-19 have too high rate prevalence, but also its mortality rate is high, specifically between old people. Scientists declare many factors related to the mortality rate of this disease.In this project, the effect of these factors has been investigated to specify which factors are the most effective ones.
+The world has been encountered with a challenging and difficult situation since COVID-19 got to a pandemic situation. Not only COVID-19 have too high prevalence rate, but also its mortality rate is high, specifically between old people. Scientists declare many factors related to the mortality rate of this disease.In this project, the effect of these factors has been investigated to specify which factors are the most effective ones.
 
 ## Table of Contents
 * [Dataset](#Dataset)
@@ -124,11 +124,9 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
  <img src="img/final_chart.jpg"  width=800>  
 </p>
 
-rrrrrrrrrrrr
+Concerning the outcome chart, The most important factor associated with mortality rate is 'total_tests_per_thousand'. Besides, The first four ones all are related to testing. It shows the great importance of testing factor. Its effect on controling the prevelance of COVID-19 was approed by epidemiologist, but it also can decrease the mortality rate of disease. Actually, when the prevelance rate starts to decrease, more facilities get available for infected people, so the mortality rate   
 
 
 
 
-Reference
--------
 
