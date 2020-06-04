@@ -3,7 +3,7 @@
 # 
 
 ## Description
-Determination of factors having the most effects on the mortality rate of the Covid-19 infected people.
+
 
 ## Table of Contents
 * [Dataset](#Dataset)
