@@ -124,8 +124,9 @@ The required packages to run the script are: matplotlib, lightgbm, pandas, sklea
  <img src="img/final_chart.jpg"  width=800>  
 </p>
 
-Concerning the outcome chart, The most important factor associated with mortality rate is 'total_tests_per_thousand'. Besides, The first four ones all are related to testing. It shows the great importance of testing factor. Its effect on controling the prevelance of COVID-19 was approed by epidemiologist, but it also can decrease the mortality rate of disease. Actually, when the prevelance rate starts to decrease, more facilities get available for infected people, so the mortality rate   
-
+Concerning the outcome chart, The most important factor associated with mortality rate is 'total_tests_per_thousand'. Besides, The first four ones all are related to 'testing'. It shows the great importance of the 'testing' factor. Its effect on controlling the prevalence of COVID-19 was approved by epidemiologists, but it also can decrease the mortality rate of disease. Actually, when the prevalence rate starts to decrease, more facilities get available for infected people, so the mortality rate decreases as well. This result emphasizes the vital role of the testing in societies and its priority to other policies. The other features are connected with mortality rate are, 'stringency_index', 'median_age', 'population_density', 'diabetes_prevalence', 'female_smokers' and 'cvd_death_rate', respectively. 'stringency_index' and 'population_density' are important factors in controlling the epidemy, so they also reduce the mortality rate.
+'median_age', 'diabetes_prevalence', 'female_smokers', and 'cvd_death_rate' are all known health problems that increase the vulnerability of infected people against the COVID-19.   
+Other examined factors including 'population', 'gdp_per_capita', 'extreme_poverty', 'cvd_death_rate', 'hospital_beds_per_100k' do not have considerable effect on mortality rate of COVID-19.
 
 
 
