@@ -1,41 +1,12 @@
-
+<img src="img/natural-language-processing-explained.jpg" width=1000/>
 
 # 
 
 ## Description
 
 
-## Table of Contents
-* [Dataset](#Dataset)
-* [Analysis Prodecure](#Analysis-Procedure)  
-* [Results](#Results)  
-* [Usage](#Usage)  
-* [Conclusion](#Conclusion)  
-
-
-## Dataset
-
-### Data Structure
-
-
-## Analysis Procedure
-
-### preprocessing
-
-
 
 ## Usage tips
 
 
-## Results
-
-
-
-
-
-
-
-
-Reference
--------
 
