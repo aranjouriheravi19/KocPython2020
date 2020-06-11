@@ -17,8 +17,9 @@ This dataset's nine supportive features offer a great environment to parse out t
 
 
 ## Usage tips
+If your system is not compatible to run codes, please use [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) for the problem to be solved.
 
-## Results
+
 
 
 
